@@ -11,4 +11,4 @@ Key takeaways from this project:
 
 ---
 
-Checkout this awesome project on [Netlify]()
+
