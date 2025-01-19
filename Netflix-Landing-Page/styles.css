@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Roboto, system-ui;
+    margin: 0;
+}
+
+/* banner section with background image and black overlay, logo, sign-in button and email input text box. First section seen by user  */
+
+.banner-wrap  {
+    background-image: url(./assets/bgimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #222222;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    position: absolute;
+    top: 0;    
+    width: 100%;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    height: 94.93px;
+    justify-content: space-between;
+    margin: 0px 120.267px;
+    padding: 24px 48px;
+}
+
+.banner-container {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 190px 279.133px 114px 279.133px;
+    padding: 0;
+}
+
+.logo {
+    height: 40px; 
+    width: 148px;
+}
+
+.sign-in {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 4px;
+    height: 34.133px;
+    width: 74.583px;
+}
+
+.sign-in a {
+    color: white;
+    height: 24px;
+    font-size: 14.5px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    width: 42.583px;
+}
+
+.lg-font {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.md-font {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px 0px 0px 0px;
+}
+
+.sm-font {
+    color: white;
+    font-size: 20.6px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.get-started-form {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 16px 112.633px 0px 112.633px;
+}
+
+.input-area {
+    margin: 24px 0px 0px 0px;
+    padding: 0px 32px 0px 32px;
+}
+
+.get-started-form input {
+    color: white;
+    background-color: rgba(37, 36, 36, 0.5);
+    border: 1.067px solid rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+    cursor: text;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-indent: 16px;
+    width: 366.77px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.get-started-form button {
+    align-items: center;
+    background-color: rgb(229, 9, 20);
+    border: 1.06667px solid rgba(0,0,0,0);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    margin: 0px 0px 0px 8px;
+    padding: 0px;
+    width: 209.100px;
+}  
+
+button .material-symbols-outlined {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+}
+
+/* three section with information about Netflix. Used absolute and relative positioning for images and videos */
+
+.info-container {
+    background: black;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 70px 45px;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tv-container video {
+    margin-bottom: 15px;
+    position: absolute;   
+}
+
+.tv-container img {
+    z-index: 1;
+}
+
+.download-container {
+    align-items: center;
+    background: black;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 70px 45px;
+    position: relative;
+}
+
+.download-img {
+    z-index: 0;
+}
+
+.rectangle {
+    background-color: rgb(0,0,0);
+    bottom: 18.8%;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    height: 18%;
+    left: 22.6%;
+    position: absolute;
+    width: 20.8%;
+    z-index: 1;
+}
+
+.download-img2 {
+    bottom: 20.1%;
+    left: 23.58%;
+    position: absolute;
+    z-index: 2;
+}
+
+.download-title {
+    color: white;
+    bottom: 27.5%;
+    left: 28.5%;
+    position: absolute;
+    z-index: 3;
+}
+
+.download-text {
+    color: #0071eb;
+    bottom: 24.75%;
+    left: 28.5%;
+    position: absolute;
+    z-index: 4;
+}
+
+.download-icon {
+    bottom: 23.8%;
+    left: 40.05%;
+    position:absolute;
+    z-index: 5;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.watch-container {
+    background: black;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 70px 45px;
+}
+
+.watch-img {
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+
+.watch-img video {
+    object-fit: contain;
+    top: 10%;
+    position: absolute;
+    width: 62%;
+}
+
+.watch-img img {
+    z-index: 1;
+}
+
+.create-container {
+    background: black;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 70px 45px;
+}
+
+.create-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* frequently asked questions section */
+
+.questions-container {
+    align-items: center;
+    background: black;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+
+.questions-btn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.block {
+    align-items: center;
+    display: flex;
+    background-color: #2f2e2e;
+    border: none;
+    border-style: outset;
+    border-color: rgb(255, 255, 255);
+    border-width: 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    height: 84px;
+    justify-content: space-between;
+    padding: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 1106.67px;
+}
+
+.block:hover {
+    background-color: #414141;
+}
+
+.block .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-weight: 100;
+    height: 36px;
+    width: 36px;
+}
+
+/* footer section with links to more information and language selector button */
+
+.footer {
+    background: black;
+    color: rgba(255,255,255,0.7);
+    padding: 72px 168.267px;   
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: center; 
+}
+
+#number {
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#call {
+    padding: 0px 0px 24px 0px;
+}
+
+
+.list-items {
+    columns: 4;
+    column-gap: 35px;     
+    text-indent: -40px;
+    padding: 0px 0px 12px 0px;
+}
+
+.list-items li {
+    list-style-type: none;
+    padding: 0px 0px 12px 0px;        
+    text-decoration: underline;
+}
+
+.list-items li:hover {
+    cursor: pointer;
+}
+
+li {
+    font-size: 14px;
+}
+
+.dropdown-btn {
+    align-items: center;
+    background-color: #0F0F0F;
+    border: 1px solid #5E5E5E;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    height: 32px;
+    position: relative;    
+    width: 125.33px;
+}
+
+.dropdown-btn select {
+    color: white;
+    appearance: none;
+    background-color: #0F0F0F;
+    background: url(./assets/carot.png) 90% no-repeat;
+    background-size: 20px;
+    border: none;
+    display: flex;
+    font-weight: 500;
+    padding: 6px 36px 6px 34px;
+    width: 100%;
+}
+
+.dropdown-btn .material-symbols-outlined {
+    align-items: center;
+    margin-left: 9px;
+    position: absolute;
+}
+
+ #copyright {
+    font-size: 13px;
+    margin: 24px 0px 0px 0px;
+} 
+
+/* github account : @amahlehani */
+
+
+
+
+
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix South Africa - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+    <link rel="shortcut icon" href="./assets/netflix-icon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="banner-wrap">
+        <div class="overlay"></div>
+        <nav class="header">
+        <img  class="logo" src="./assets/netflix-logo.svg" alt="Netflix Logo">    
+        <button class="sign-in">
+            <a href="https://www.netflix.com/login" target="_blank" >Sign In</a>
+        </button>
+        </nav>
+
+        <!-- assigned the different heading levels a class to be able to target similar heading across the page at the same time.
+         However, I realise I can just use element selectors for styling.  -->
+
+         <!-- used a pseudo-element on the email input text box to be able to change the color of the placeholder instead of using 
+          "value: Email Address" which doesnt give the same effect as a placeholder -->
+
+        <div class="banner-container">    
+            <h1 class="lg-font">Unlimited movies, TV shows, and more</h1>
+            <h2 class="md-font">Watch anywhere. Cancel anytime.</h2>
+
+            <form>
+                <div class="input-area">
+                <h3 class="sm-font">Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="get-started-form">
+                <input id="email" name="email" autocomplete="email" type="text" placeholder="Email address"> 
+                <button>Get Started<span class="material-symbols-outlined">chevron_right</span></button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- the extra containers I completed were a fun challenge. Learnt to use percentage values instead of hard coding the sizes
+     and positions -->
+
+    <div class="info-container">
+        <div class="info1">
+        <h1 class="lg-font">Enjoy on your TV</h1>
+        <h2 class="md-font">Watch on Smart TVs, Playstation, Xbox,<br>Chromecast, Apple TV, Blu-ray players, and more.</h2>
+        </div>
+        <!-- Inline Video -->
+        <div class="tv-container">
+        <img width="547.33px" height="410.5px" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Image of TV with a video">
+        <video width="399.550px" height="223.383px" autoplay playsinline muted loop>
+            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+        </video>
+        </div>
+    </div>
+
+    <div class="download-container">
+        <div class="download-img">
+        <img width="547.33px" height="410.5px" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="Image of phone with Stranger Things cover">
+        </div>
+
+        <div class="rectangle"></div>
+
+        <div class="download-img2">
+        <img width="57.13px" height="80px" src="./assets/boxshot.png" alt="Stranger Things cover image">
+        </div>
+
+        <div class="download-title">
+            <p>Stranger Things</p>
+        </div>
+
+        <div class="download-text">
+            <p style="font-size: 13px;">Downloading...</p>
+        </div>
+
+        <div class="download-icon">
+        <img width="26px" height="36px" src="./assets/download_icon.svg" alt="Download icon">
+        </div>
+
+        <div class="info2">
+        <h1 class="lg-font">Download your shows<br>to watch offline</h1>
+        <h2 class="md-font">Save your favorites easily and<br>always have something to watch.</h2>
+        </div>
+    </div>
+
+    <div class="watch-container">
+        <div class="info1">
+        <h1 class="lg-font">Watch everywhere</h1>
+        <h2 class="md-font">Stream unlimited movies and TV shows on your<br>phone, tablet, laptop, and TV.</h2>
+        </div>
+
+        <div class="watch-img">
+        <img width="547.33" height="410.5px" src="https://web.archive.org/web/20240716002521im_/https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="Image of a TV and mobile devices">
+        <video width="344.82px" height="194.43px" autoplay playsinline muted loop>
+            <source src="https://web.archive.org/web/20240716002521im_/https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4">
+        </video>
+        </div>
+    </div>
+
+    <div class="create-container">
+        <div class="create-img">
+        <img width="547.33px" height="410.5px" src="https://web.archive.org/web/20240716002521im_/https://occ-0-2218-2219.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55" alt="Netflix Kids image">
+        </div>  
+
+        <div class="info2">
+        <h1 class="lg-font">Create profiles for kids</h1>
+        <h2 class="md-font">Send kids on adventures with their favorite<br>characters in a space made just for them—free<br>with your membership.</h2>
+        </div>
+    </div>
+
+    <div class="questions-container">
+        <h1 class="lg-font">Frequently Asked Questions</h1>
+        <div class="questions-btn">
+        <button type="button" class="block">What is Netflix?<span class="material-symbols-outlined">add</span></button>
+        <button type="button" class="block">How much does Netflix cost?<span class="material-symbols-outlined">add</span></button>
+        <button type="button" class="block">Where can I watch?<span class="material-symbols-outlined">add</span></button>
+        <button type="button" class="block">How do I cancel?<span class="material-symbols-outlined">add</span></button>
+        <button type="button" class="block">What can I watch on Netflix?<span class="material-symbols-outlined">add</span></button>
+        <button type="button" class="block">Is Netflix good for kids?<span class="material-symbols-outlined">add</span></button>
+        </div>
+
+        <form class="get-started-form">
+            <div class="input-area">
+            <h3 class="sm-font">Ready to watch? Enter your email to create or restart your membership.</h3>
+            <div class="get-started-form">
+            <input id="email" name="email" autocomplete="email" type="text" placeholder="Email address">
+            <button>Get Started<span class="material-symbols-outlined">chevron_right</span></button>
+            </div>
+            </div>
+        </form>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-items">
+        <p id="call">Questions? Call <a href="#" target="_blank" id="number">0 801-000-723</a></p>
+        
+        <div class="list-items">
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Ways to Watch</li>
+            <li>Corporate Information</li>
+            <li>Only on Netflix</li>
+            <li>Help Center</li>
+            <li>Jobs</li>
+            <li>Terms of Use</li>
+            <li>Account</li>
+            <li>Contact Us</li>
+            <li>Redeem Gift Cards</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+            <li>Media Center</li>
+            <li>Buy Gift Cards</li>
+            <li>Cookie Preferences</li>
+            <li>Legal Notices</li>
+        </ul>    
+        </div>
+        
+        <div class="dropdown-btn">
+        <span class="material-symbols-outlined" style="font-size: 15px; font-weight: 700;">translate</span>
+        <select name="languages" id="languages">
+            <option lang="en" label="English" value="en-ZA" selected>English</option>
+            <option lang="en" label="Afrikaans" value="en-ZA">Afrikaans</option>
+            <option lang="en" label="Xhosa" value="en-ZA">Xhosa</option>
+            <option lang="en" label="Zulu" value="en-ZA">Zulu</option>
+            </select>
+        </div>       
+    
+        <div class="copyright">
+        <p id="copyright">Amahle Hani Netflix Clone</p>
+        </div>
+        </div> 
+    </div>     
+</body>
+</html>
+
+<!-- github account: @amahlehani -->
