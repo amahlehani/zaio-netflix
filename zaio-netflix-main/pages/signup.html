@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="./assets/netflix-icon.svg">
+    <link rel="stylesheet" href="./signup.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="banner-wrap">
+        <div class="overlay"></div>
+        <div class="navbar">
+            <div class="logo">
+                <img height="40px" width="148px" src="./assets/netflix-logo.svg" alt="Netflix Logo">
+            </div>
+        </div>
+
+        <div class="banner-container">
+            <form>
+                <div class="input-area">
+                <h1>Sign In</h1>
+                <div class="signin-form">
+                <input type="text" id="contact" name="contact" autocomplete="email" placeholder="Email or mobile number" >
+                <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Password">
+                <button class="signin-btn">
+                    <a href="#" target="_blank">Sign In</a>
+                </button>
+
+                <div class="or">
+                <p>OR</p>
+                </div>
+
+                <button class="code-btn">
+                    <a href="#" target="_blank">Use a Sign-In Code</a>
+                </button>
+                <p class="forgot-pswd">
+                    <a href="#" target="_blank">Forgot password?</a>
+                </p>
+
+                <div class="form-footer">
+                <input type="checkbox" id="rememberme" name="rememberme">
+                <label for="rememberme">Remember me</label>
+                <p class="newuser">
+                    New to Netflix? <a href="#" target="_blank">Sign up now.</a>
+                </p>
+                <p class="verification">
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" target="_blank">Learn more.</a>
+                </p>
+                </div>
+                </div>
+                </div>
+            </form>
+        </div>    
+    </div>
+
+    <div class="footer-section">
+        <div class="footer-items">
+        <p id="call">Questions? Call <a href="#" target="_blank" class="number">0 801-000-723</a></p>
+
+        <div class="footer-links">
+        <ul>
+            <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+            <li><a href="#">Cookie Preferences</a></li>
+            <li><a href="https://help.netflix.com/en">Help Center</a></li>
+            <li><a href="https://help.netflix.com/en/node/134094">Corporate Information</a></li>
+            <li><a href="https://help.netflix.com/legal/termsofuse">Term of Use</a></li><br>
+            <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+        </ul>
+        </div>
+
+        <div class="dropdown-btn">
+            <span class="material-symbols-outlined" style="font-size: 15px; font-weight: 500;">translate</span>
+            <select name="languages" id="languages">
+                <option lang="en" label="English" value="en-ZA" selected>English</option>
+                <option lang="en" label="Afrikaans" value="en-ZA">Afrikaans</option>
+            </select>
+        </div>
+        </div>
+    </div> 
+</body>
+</html>
