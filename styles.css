@@ -1,419 +1,440 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
-    font-size: 16px;
-    font-family: Roboto, system-ui;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 /* banner section with background image and black overlay, logo, sign-in button and email input text box. First section seen by user  */
 
-.banner-wrap  {
-    background-image: url(./assets/bgimage.jpg);
+/* .banner-wrap  {
+    background-image: url(./assets/bgimage2025.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: 10px solid #222222;
-    height: 100vh;
+    border-bottom: 0.625rem solid #222222;
     position: relative;
     z-index: 1;
-}
+} */
 
-.overlay {
-    background: rgba(0,0,0,0.7);
+/* .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.9)
+      ); 
     height: 100%;
     position: absolute;
-    top: 0;    
+    inset: 0;    
     width: 100%;
     z-index: -1;
-}
+} */
 
-.header {
-    display: flex;
-    height: 94.93px;
-    justify-content: space-between;
-    margin: 0px 120.267px;
-    padding: 24px 48px;
-}
-
-.banner-container {
-    align-items: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 190px 279.133px 114px 279.133px;
-    padding: 0;
-}
-
-.logo {
-    height: 40px; 
-    width: 148px;
-}
-
-.sign-in {
-    background-color: rgb(229, 9, 20);
-    border: none;
-    border-radius: 4px;
-    height: 34.133px;
-    width: 74.583px;
-}
-
-.sign-in a {
-    color: white;
-    height: 24px;
-    font-size: 14.5px;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    width: 42.583px;
-}
-
-.lg-font {
-    color: white;
-    font-size: 48px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.md-font {
-    color: white;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 16px 0px 0px 0px;
-}
-
-.sm-font {
-    color: white;
-    font-size: 20.6px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.get-started-form {
-    align-items: center;
+/* .header {
     display: flex;
     flex-direction: row;
-    margin: 16px 112.633px 0px 112.633px;
-}
+    justify-content: space-between;
+    height: 5rem;
+   
+} */
 
-.input-area {
-    margin: 24px 0px 0px 0px;
-    padding: 0px 32px 0px 32px;
-}
+/* .banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    
+} */
 
-.get-started-form input {
+/* .logo {
+    height: 2.5rem; 
+    width: 5.25rem;
+} */
+
+/* .sign-in {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 0.25rem;
+    height: 2rem;
+   
+    color: white;
+    font-size: 0.800rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.219rem;
+    padding: 0.25rem 1rem;
+} */
+
+/* .sign-in:hover {
+    background-color: rgb(178, 7, 16);
+} */
+
+/* .lg-font {
+    color: white;
+
+} */
+
+/* .md-font {
+    color: white;
+  
+} */
+
+/* .sm-font {
+    color: white;
+  
+} */
+
+/* .get-started-form {
+    display: flex;
+  
+} */
+
+
+
+/* .get-started-form input {
     color: white;
     background-color: rgba(37, 36, 36, 0.5);
-    border: 1.067px solid rgba(128, 128, 128, 0.7);
-    border-radius: 4px;
+    border: 0.067rem solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
     cursor: text;
-    height: 56px;
-    font-size: 16px;
+    height: 3.5rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.5;
-    text-indent: 16px;
-    width: 366.77px;
-}
-
+    text-indent: 1rem;
+   
+} */
+/* 
 ::placeholder {
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
-}
+} */
 
-.get-started-form button {
+/* .get-started-form button {
     align-items: center;
     background-color: rgb(229, 9, 20);
-    border: 1.06667px solid rgba(0,0,0,0);
-    border-radius: 4px;
+    border: 0.067rem solid rgba(0,0,0,0);
+    border-radius: 0.25rem;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
-    height: 56px;
+    height: 3.5rem;
     justify-content: center;
-    margin: 0px 0px 0px 8px;
-    padding: 0px;
-    width: 209.100px;
-}  
+    margin: 0rem 0rem 0rem 0.5rem;
+    padding: 0rem;
 
-button .material-symbols-outlined {
+}   */
+
+/* button .material-symbols-outlined {
     align-items: center;
     color: rgb(255, 255, 255);
     display: flex;
-    font-size: 36px;
+    font-size: 2.25rem;
     justify-content: center;
-}
+} */
 
 /* three section with information about Netflix. Used absolute and relative positioning for images and videos */
 
-.info-container {
+/* .info-container {
     background: black;
-    border-bottom: 10px solid #222222;
+    border-bottom: 0.625rem solid #222222;
     display: flex;
     justify-content: center;
-    padding: 70px 45px;
-}
+   
+} */
 
-.info1 {
+/* .info1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.tv-container {
+/* .tv-container {
     align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
-}
+} */
 
-.tv-container video {
+/* .tv-container video {
+    height: 12rem;
+    width: 8rem;
     margin-bottom: 15px;
     position: absolute;   
-}
+} */
 
-.tv-container img {
+/* .tv-container img {
+    height: 12rem;
+    width: 8rem;
     z-index: 1;
-}
+} */
 
-.download-container {
+/* .download-container {
     align-items: center;
     background: black;
-    border-bottom: 10px solid #222222;
+    border-bottom: 0.625rem solid #222222;
     display: flex;
     justify-content: center;
-    padding: 70px 45px;
+    padding: 4.375rem 2.813rem;
     position: relative;
-}
+} */
 
-.download-img {
+/* .download-img {
     z-index: 0;
-}
+} */
 
-.rectangle {
+/* .download-img img {
+    height: 12rem;
+    width: 10rem;
+} */
+
+/* .rectangle {
     background-color: rgb(0,0,0);
     bottom: 18.8%;
-    border: 1px solid rgba(128, 128, 128, 0.7);
-    border-radius: 12px;
+    border: 0.063rem solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.75rem;
     box-shadow: 0 0 2em 0 rgb(0,0,0);
     height: 18%;
     left: 22.6%;
     position: absolute;
     width: 20.8%;
     z-index: 1;
-}
+} */
 
-.download-img2 {
+/* .download-img2 {
     bottom: 20.1%;
     left: 23.58%;
     position: absolute;
     z-index: 2;
-}
+} */
+/* 
+.download-img2 img {
+    height: 12rem;
+    width: 4rem;
+} */
 
-.download-title {
+/* .download-title {
     color: white;
     bottom: 27.5%;
     left: 28.5%;
     position: absolute;
     z-index: 3;
-}
+} */
 
-.download-text {
+/* .download-text {
     color: #0071eb;
     bottom: 24.75%;
     left: 28.5%;
     position: absolute;
     z-index: 4;
-}
+} */
 
-.download-icon {
+/* .download-icon {
     bottom: 23.8%;
     left: 40.05%;
     position:absolute;
     z-index: 5;
-}
+} */
 
-.info2 {
+/* .info2 {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-}
+} */
 
-.watch-container {
+/* .watch-container {
     background: black;
-    border-bottom: 10px solid #222222;
+    border-bottom: 0.625rem solid #222222;
     display: flex;
     justify-content: center;
-    padding: 70px 45px;
-}
+    padding: 4.375rem 2.813rem;
+} */
 
-.watch-img {
+/* .watch-img {
     align-items: center;
     position: relative;
     display: flex;
     justify-content: center;
-} 
+}  */
 
-.watch-img video {
+/* .watch-img video {
+    height: 12rem;
+    width: 10rem;
     object-fit: contain;
     top: 10%;
     position: absolute;
     width: 62%;
-}
+} */
 
-.watch-img img {
+/* .watch-img img {
+    height: 12rem;
+    width: 10rem;
     z-index: 1;
-}
+} */
 
-.create-container {
+/* .create-container {
     background: black;
-    border-bottom: 10px solid #222222;
+    border-bottom: 0.625rem solid #222222;
     display: flex;
     justify-content: center;
-    padding: 70px 45px;
-}
+    padding: 4.375rem 2.813rem;
+} */
 
-.create-img {
+/* .create-img {
     align-items: center;
     display: flex;
     justify-content: center;
-}
+} */
+/* 
+.create-img img {
+    height: 12rem;
+    width: 10rem;
+} */
 
 /* frequently asked questions section */
 
-.questions-container {
+/* .questions-container {
     align-items: center;
     background: black;
-    border-bottom: 10px solid #222222;
+    border-bottom: 0.625rem solid #222222;
     display: flex;
     flex-direction: column;
-    padding: 70px 0px;
-}
+    padding: 4.375rem 0rem;
+} */
 
-.questions-btn {
+/* .questions-btn {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 24px;
-}
+    margin-top: 1.5rem;
+} */
 
-.block {
+/* .block {
     align-items: center;
     display: flex;
     background-color: #2f2e2e;
     border: none;
     border-style: outset;
     border-color: rgb(255, 255, 255);
-    border-width: 0px;
+    border-width: 0rem;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
-    height: 84px;
+    height: 5.25rem;
     justify-content: space-between;
-    padding: 24px;
-    margin-bottom: 10px;
+    padding: 1.5rem;
+    margin-bottom: 0.625rem;
     text-align: left;
-    width: 1106.67px;
-}
+  
+} */
 
-.block:hover {
+/* .block:hover {
     background-color: #414141;
-}
+} */
 
-.block .material-symbols-outlined {
+/* .block .material-symbols-outlined {
     color: rgb(255, 255, 255);
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 100;
-    height: 36px;
-    width: 36px;
-}
+    height: 2.25rem;
+    width: 2.25rem;
+} */
 
 /* footer section with links to more information and language selector button */
 
-.footer {
+/* .footer {
     background: black;
     color: rgba(255,255,255,0.7);
-    padding: 72px 168.267px;   
-}
+   
+} */
 
-.footer-items {
+/* .footer-items {
     display: flex;
     flex-direction: column;
     font-weight: 400;
     justify-content: center; 
-}
+} */
 
-#number {
+/* #number {
     color: rgba(255,255,255,0.7);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     text-decoration: underline;
-}
+} */
 
-#call {
-    padding: 0px 0px 24px 0px;
-}
+/* #call {
+    padding: 0rem 0rem 1.5rem 0rem;
+} */
 
-
+/* 
 .list-items {
     columns: 4;
-    column-gap: 35px;     
-    text-indent: -40px;
-    padding: 0px 0px 12px 0px;
-}
+    column-gap: 2.188rem;     
+    text-indent: -2.5rem;
+    padding: 0rem 0rem 0.75rem 0rem;
+} */
 
-.list-items li {
+/* .list-items li {
     list-style-type: none;
-    padding: 0px 0px 12px 0px;        
+    padding: 0rem 0rem 0.75rem 0rem;        
     text-decoration: underline;
-}
+} */
 
-.list-items li:hover {
+/* .list-items li:hover {
     cursor: pointer;
-}
+} */
 
-li {
-    font-size: 14px;
-}
+/* li {
+    font-size: 0.875rem;
+} */
 
-.dropdown-btn {
+/* .dropdown-btn {
     align-items: center;
     background-color: #0F0F0F;
-    border: 1px solid #5E5E5E;
-    border-radius: 4px;
+    border: 0.063rem solid #5E5E5E;
+    border-radius: 0.25rem;
     color: white;
     display: flex;
-    height: 32px;
+    height: 2rem;
     position: relative;    
     width: 125.33px;
-}
+} */
 
-.dropdown-btn select {
+/* .dropdown-btn select {
     color: white;
     appearance: none;
     background-color: #0F0F0F;
     background: url(./assets/carot.png) 90% no-repeat;
-    background-size: 20px;
+    background-size: 1.25rem;
     border: none;
     display: flex;
     font-weight: 500;
-    padding: 6px 36px 6px 34px;
+    padding: 0.375rem 2.25rem 0.375rem 2.125rem;
     width: 100%;
-}
+} */
 
-.dropdown-btn .material-symbols-outlined {
+/* .dropdown-btn .material-symbols-outlined {
     align-items: center;
-    margin-left: 9px;
+    margin-left: 0.563rem;
     position: absolute;
-}
+} */
 
- #copyright {
-    font-size: 13px;
-    margin: 24px 0px 0px 0px;
-} 
+ /* #copyright {
+    font-size: 0.813rem;
+    margin: 1.5rem 0rem 0rem 0rem;
+}  */
 
 /* github account : @amahlehani */
 

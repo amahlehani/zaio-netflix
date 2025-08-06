@@ -14,7 +14,7 @@ Key takeaways from this project:
 
 ### Global Styles
 
-- Font: Roboto from Google Fonts.
+- Font: Montserrat from Google Fonts.
 - Base Styling: Resets margin and padding; applies box-sizing and font-family.
 
 ### Banner Section
@@ -29,7 +29,6 @@ Key takeaways from this project:
 
 ### FAQ Section
 - Buttons: Expandable FAQ sections with interactive elements.
-- Responsive: Adjusts layout for different screen sizes.
 
 ### Footer
 - Links: Includes footer links for FAQ, account management, and other resources.

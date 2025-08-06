@@ -1,0 +1,559 @@
+@media screen and (min-width: 1280px) {
+/* banner section with background image and black overlay, logo, sign-in button and email input text box. First section seen by user  */
+.banner-wrap  {
+    background-image: url(./assets/bgimage2025.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 0.625rem solid #222222;
+    height: 95vh;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.55) 50%,
+        rgba(0, 0, 0, 0.55) 50%,
+        rgba(0, 0, 0, 0.9)
+    ); 
+    height: 100%;
+    position: absolute;
+    inset: 0;    
+    width: 100%;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    margin: 0rem 7.5rem;
+    padding: 2.75rem 1.75rem;
+}
+
+.logo {
+    height: 2.5rem; 
+    width: 9.25rem;
+}
+
+.sign-in {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 0.25rem;
+    height: 2rem;
+    width: 4.870rem;
+    color: white;
+    font-size: 0.800rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.219rem;
+    padding: 0.25rem 1rem;
+}
+
+.sign-in:hover {
+    background-color: rgb(178, 7, 16);
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 35rem;
+    margin: 0rem 2rem 0rem 2rem;
+    padding: 8rem 0rem 6rem 0rem;
+}
+
+.banner-container h1 {
+    color: white;
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0rem 18.75rem;
+}
+
+.banner-container h2 {
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.banner-container h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.85rem 7.25rem 0rem 7.25rem;
+    padding: 0rem 2.956rem 1.25rem 2.956rem;
+}
+
+.lg-font {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.063rem;
+}
+
+.md-font {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.sm-font {
+    color: white;
+    font-size: 1.288rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.get-started-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem 7.04rem 0rem 7.04rem;
+}
+
+.get-started-form input {
+    color: white;
+    background-color: rgba(37, 36, 36, 0.5);
+    border: 0.067rem solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
+    cursor: text;
+    height: 3.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-indent: 1rem;
+    width: 22.923rem;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.get-started-form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 9, 20);
+    border: 0.067rem solid rgba(0,0,0,0);
+    border-radius: 0.25rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    margin: 0rem 0rem 0rem 0.5rem;
+    padding: 0rem;
+    width: 13.069rem;
+}  
+
+.get-started-form .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+/* three section with information about Netflix. Used absolute and relative positioning for images and videos */
+
+.info-container {
+    background: black;
+    border-bottom: 0.625rem solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 4.375rem 2.813rem;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tv-container video {
+    width: 24.972rem;
+    height: 13.961rem;
+    margin-bottom: 0.938rem;
+    position: absolute;   
+}
+
+.tv-container img {
+    height: 25.656rem;
+    width: 34.208rem;
+    z-index: 1;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    border-bottom: 0.625rem solid #222222;
+    padding: 4.375rem 2.813rem;
+    position: relative;
+}
+
+.download-img {
+    position: relative;
+}
+
+.download-img img {
+    width: 34.208rem;
+    height: 25.656rem;
+    z-index: 0;
+    display: inline-block;
+}
+
+.rectangle {
+    background-color: rgb(0,0,0);
+    bottom: 10.8%;
+    border: 0.063rem solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.75rem;
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 22%;
+    left: 23.85%;
+    position: absolute;
+    width: 53%;
+    z-index: 1;
+}
+
+.download-img2 img {
+    width: 3.571rem;
+    height: 4.5rem;
+    margin: 0rem 0.8rem 0rem 0.8rem;
+    z-index: 2;
+}
+
+.download-details {
+    margin-right: 2rem;
+}
+
+.download-title {
+    color: white;
+    z-index: 3;
+}
+
+.download-text {
+    color: #0071eb;
+    font-size: 0.813rem;
+    z-index: 4;
+}
+
+.download-icon {
+
+    z-index: 5;
+}
+
+.download-icon img {
+    width: 1.625rem;
+    height: 2.25rem;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.watch-container {
+    background: black;
+    border-bottom: 0.625rem solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 4.375rem 2.813rem;
+}
+
+.watch-img {
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+
+.watch-img video {
+    width: 21.551rem;
+    height: 12.152rem;
+    object-fit: contain;
+    top: 10%;
+    position: absolute;
+    width: 62%;
+}
+
+.watch-img img {
+    width: 34.208rem;
+    height: 25.656rem;
+    z-index: 1;
+}
+
+.create-container {
+    background: black;
+    border-bottom: 0.625rem solid #222222;
+    display: flex;
+    justify-content: center;
+    padding: 4.375rem 2.813rem;
+}
+
+.create-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.create-img img {
+    width: 34.208rem;
+    height: 25.656rem;
+}
+
+/* frequently asked questions section */
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    border-bottom: 0.625rem solid #222222;
+    padding: 4.375rem 0rem;
+}
+
+.questions-btn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.625rem;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f2e2e;
+    border: none;
+    border-style: outset;
+    border-color: rgb(255, 255, 255);
+    border-width: 0rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 5.25rem;
+    padding: 1.5rem;
+    margin-bottom: 0.068rem;
+    text-align: left;
+    width: 69.167rem;
+}
+
+.block:hover {
+    background-color: #414141;
+}
+
+.block .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: 100;
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.faq-answer {
+    display: none;
+    color: rgb(255, 255, 255);
+    background-color: #2f2e2e;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    margin-bottom: 0.625rem;
+    width: 69.167rem;
+
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.input-area h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.85rem 7.25rem 0rem 7.25rem;
+    padding: 0rem 2.956rem 1.25rem 2.956rem;
+}
+
+.get-started-form2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem 14rem 0rem 14rem;
+}
+
+.get-started-form2 input {
+    color: white;
+    background-color: rgba(37, 36, 36, 0.5);
+    border: 0.067rem solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
+    cursor: text;
+    height: 3.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-indent: 1rem;
+    width: 22.923rem;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.get-started-form2 button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 9, 20);
+    border: 0.067rem solid rgba(0,0,0,0);
+    border-radius: 0.25rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    margin: 0rem 0rem 0rem 0.5rem;
+    padding: 0rem;
+    width: 13.069rem;
+}  
+
+.get-started-form2 .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+}
+
+/* footer section with links to more information and language selector button */
+
+.footer {
+    background: black;
+    color: rgba(255,255,255,0.7);
+    padding: 4.5rem 10.517rem;   
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: center; 
+}
+
+.footer-items a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.938rem;
+    font-weight: 400;
+}
+
+
+#number:hover {
+    text-decoration: underline;
+}
+
+#call {
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+
+
+.list-items {
+    columns: 4;
+    column-gap: 2.188rem;     
+    padding: 0rem 0rem 0.75rem 0rem;
+    cursor:default;
+}
+
+.list-items li {
+    list-style-type: none;
+    padding: 0rem 0rem 0.75rem 0rem;        
+}
+
+.list-items li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li {
+    font-size: 0.875rem;
+}
+
+.dropdown-btn {
+    align-items: center;
+    background-color: #0F0F0F;
+    border: 0.063rem solid #5E5E5E;
+    border-radius: 0.25rem;
+    color: white;
+    display: flex;
+    height: 2rem;
+    position: relative;    
+    width: 7.833rem;
+}
+
+.dropdown-btn select {
+    color: white;
+    appearance: none;
+    background-color: #0F0F0F;
+    background: url(./assets/carot.png) 90% no-repeat;
+    background-size: 1.25rem;
+    border: none;
+    display: flex;
+    font-weight: 500;
+    padding: 0.375rem 2.25rem 0.375rem 2.125rem;
+    width: 100%;
+}
+
+.dropdown-btn .material-symbols-outlined {
+    font-size: 0.938rem; 
+    font-weight: 700;
+    align-items: center;
+    margin-left: 0.563rem;
+    position: absolute;
+}
+
+option {
+    color: white;
+    background-color: #0F0F0F;
+}
+
+ #copyright {
+    font-size: 0.813rem;
+    margin: 1.5rem 0rem 0rem 0rem;
+} 
+}
