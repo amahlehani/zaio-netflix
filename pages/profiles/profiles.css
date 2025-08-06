@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 30px;
+    margin: 0px 100px 0px 125px;
+    cursor: pointer;
+}
+
+nav .material-symbols-outlined {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px 50px 30px;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.profile-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile p {
+    color: white;
+    text-align: center;
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(37, 36, 36, 0.5);
+    border: 0.067rem solid rgba(128, 128, 128, 0.7);
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-profile span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.7);   
+}

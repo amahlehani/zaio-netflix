@@ -1,0 +1,55 @@
+@media (min-width: 768px) and (orientation: portrait) {
+    .logo {
+        margin: 0px 250px 0px 280px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .row {
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .avatar {
+        height: 160px;
+        width: 160px;
+    }
+
+    .add-profile {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    nav .material-symbols-outlined {
+        margin-left: 280px;
+    }
+
+    .logo {
+        margin-left: 410px;
+    }
+
+    .profile-boxes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin-right: 35px;
+    }
+
+    .avatar {
+        height: 160px;
+        width: 160px;
+    }
+
+    .add-profile {
+        height: 160px;
+        width: 160px;
+    }
+}
