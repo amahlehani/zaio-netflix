@@ -9,318 +9,350 @@
 
 /* banner section with background image and black overlay, logo, sign-in button and email input text box. First section seen by user  */
 
-/* .banner-wrap  {
-    background-image: url(./assets/bgimage2025.jpg);
+.banner-wrap  {
+    background-image: url(./assets/bgimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 0.625rem solid #222222;
+    height: 50vh;
     position: relative;
     z-index: 1;
-} */
+}
 
-/* .overlay {
+.overlay {
     background: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.9),
-        rgba(0, 0, 0, 0.6) 50%,
-        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.55) 50%,
+        rgba(0, 0, 0, 0.55) 50%,
         rgba(0, 0, 0, 0.9)
-      ); 
+    ); 
     height: 100%;
     position: absolute;
     inset: 0;    
     width: 100%;
     z-index: -1;
-} */
+}
 
-/* .header {
+.header {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between;
-    height: 5rem;
-   
-} */
-
-/* .banner-container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    color: white;
-    
-    
-} */
+    padding-top: 20px;
+    margin: 0px 20.5938px;
+}
 
-/* .logo {
-    height: 2.5rem; 
-    width: 5.25rem;
-} */
+.logo {
+    height: 32px; 
+    width: 111.23px;
+    padding-top: 8px;
+}
 
-/* .sign-in {
+.sign-in {
     background-color: rgb(229, 9, 20);
     border: none;
     border-radius: 0.25rem;
-    height: 2rem;
-   
+    height: 24px;   
+    width: 60.84px;
     color: white;
-    font-size: 0.800rem;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
     text-align: center;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.219rem;
-    padding: 0.25rem 1rem;
-} */
+    margin: 5.6px 0px 0px;
+    padding: 4px 8px;
+}
 
-/* .sign-in:hover {
+.sign-in:hover {
     background-color: rgb(178, 7, 16);
-} */
+}
 
-/* .lg-font {
-    color: white;
-
-} */
-
-/* .md-font {
-    color: white;
-  
-} */
-
-/* .sm-font {
-    color: white;
-  
-} */
-
-/* .get-started-form {
+.banner-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 100px 0px 30px 0px;
+}
+
+.banner-container h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 20.5938px;
+}
+
+.banner-container h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 16px 0px;
+}
+
+.banner-container h3 {
+    display: none;
+}
+
+.lg-font {
+    color: white;
+    font-size: 26px;
+}
+
+.md-font {
+    color: white;
+    font-size: 18px;
+}
+
+.sm-font {
+    color: white;
   
-} */
+}
 
+.get-started-form {
+    display: flex;
+}
 
+.get-started-form input {
+    display: none
+}
 
-/* .get-started-form input {
-    color: white;
-    background-color: rgba(37, 36, 36, 0.5);
-    border: 0.067rem solid rgba(128, 128, 128, 0.7);
-    border-radius: 0.25rem;
-    cursor: text;
-    height: 3.5rem;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
-    text-indent: 1rem;
-   
-} */
-/* 
-::placeholder {
-    color: white;
-    font-size: 1rem;
-    font-weight: 300;
-} */
-
-/* .get-started-form button {
+.get-started-form button {
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(229, 9, 20);
     border: 0.067rem solid rgba(0,0,0,0);
     border-radius: 0.25rem;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    height: 3.5rem;
-    justify-content: center;
+    font-size: 16px;
+    height: 40px;
     margin: 0rem 0rem 0rem 0.5rem;
     padding: 0rem;
+    width: 115.92px;
+}  
 
-}   */
-
-/* button .material-symbols-outlined {
-    align-items: center;
-    color: rgb(255, 255, 255);
-    display: flex;
-    font-size: 2.25rem;
-    justify-content: center;
-} */
+button .material-symbols-outlined {
+    display: none;
+}
 
 /* three section with information about Netflix. Used absolute and relative positioning for images and videos */
 
-/* .info-container {
+.info-container {
     background: black;
     border-bottom: 0.625rem solid #222222;
-    display: flex;
-    justify-content: center;
-   
-} */
-
-/* .info1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-} */
+    padding: 50px 20.5938px;
+   
+}
 
-/* .tv-container {
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.info1 h1 {
+    margin-bottom: 8px;
+}
+
+.info1 h2 {
+    margin: 13.5px 0px 4.5px;
+    font-weight: 400;
+}
+
+.tv-container {
     align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
-} */
+}
 
-/* .tv-container video {
-    height: 12rem;
-    width: 8rem;
-    margin-bottom: 15px;
+.tv-container video {
+    height: 152.328px;
+    width: 270.688px;
+    margin-bottom: 10px;
     position: absolute;   
-} */
+}
 
-/* .tv-container img {
-    height: 12rem;
-    width: 8rem;
+.tv-container img {
+    height: 278.11px;
+    width: 370.81px;
     z-index: 1;
-} */
+}
 
-/* .download-container {
+.download-container {
     align-items: center;
     background: black;
     border-bottom: 0.625rem solid #222222;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 4.375rem 2.813rem;
+    padding: 50px 20.5938px;
     position: relative;
-} */
+}
 
-/* .download-img {
+.download-img {
+    position: relative;
+}
+
+.download-img img {
+    height: 278.11px;
+    width: 370.81px;
     z-index: 0;
-} */
+    display: inline-block;
+}
 
-/* .download-img img {
-    height: 12rem;
-    width: 10rem;
-} */
-
-/* .rectangle {
+.rectangle {
     background-color: rgb(0,0,0);
-    bottom: 18.8%;
+    bottom: 10.8%;
     border: 0.063rem solid rgba(128, 128, 128, 0.7);
     border-radius: 0.75rem;
     box-shadow: 0 0 2em 0 rgb(0,0,0);
-    height: 18%;
-    left: 22.6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 22%;
+    left: 15%;
     position: absolute;
-    width: 20.8%;
+    width: 70%;
     z-index: 1;
-} */
+}
 
-/* .download-img2 {
-    bottom: 20.1%;
-    left: 23.58%;
-    position: absolute;
-    z-index: 2;
-} */
-/* 
 .download-img2 img {
-    height: 12rem;
-    width: 4rem;
-} */
+    width: 34.28px;
+    height: 48px;
+    margin: 0px 16px;
+    z-index: 2;
+}
 
-/* .download-title {
+.download-details {
+    margin-right: 2rem;
+}
+
+.download-title {
     color: white;
-    bottom: 27.5%;
-    left: 28.5%;
-    position: absolute;
     z-index: 3;
-} */
+}
 
-/* .download-text {
+.download-text {
     color: #0071eb;
-    bottom: 24.75%;
-    left: 28.5%;
-    position: absolute;
+    font-size: 0.813rem;
     z-index: 4;
-} */
+}
 
-/* .download-icon {
-    bottom: 23.8%;
-    left: 40.05%;
-    position:absolute;
+.download-icon {
     z-index: 5;
-} */
+}
 
-/* .info2 {
+.download-icon img {
+    width: 1.625rem;
+    height: 2.25rem;
+}
+
+.info2 {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-} */
+    text-align: center;
+}
 
-/* .watch-container {
+.info2 h1 {
+    margin-bottom: 8px;
+}
+
+.info2 h2 {
+    margin: 13.5px 0px 4.5px;
+    font-weight: 400;
+}
+
+.watch-container {
     background: black;
     border-bottom: 0.625rem solid #222222;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 4.375rem 2.813rem;
-} */
+    padding: 50px 20.5938px;
+}
 
-/* .watch-img {
+.watch-img {
     align-items: center;
     position: relative;
     display: flex;
     justify-content: center;
-}  */
+} 
 
-/* .watch-img video {
-    height: 12rem;
-    width: 10rem;
+.watch-img video {
+    height: 132.578px;
+    width: 233.609px;
     object-fit: contain;
     top: 10%;
     position: absolute;
-    width: 62%;
-} */
+}
 
-/* .watch-img img {
-    height: 12rem;
-    width: 10rem;
+.watch-img img {
+    height: 278.11px;
+    width: 370.81px;
     z-index: 1;
-} */
+}
 
-/* .create-container {
+.create-container {
     background: black;
     border-bottom: 0.625rem solid #222222;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding: 4.375rem 2.813rem;
-} */
+}
 
-/* .create-img {
+.create-img {
     align-items: center;
     display: flex;
     justify-content: center;
-} */
-/* 
+}
+
 .create-img img {
-    height: 12rem;
-    width: 10rem;
-} */
+    height: 278.11px;
+    width: 370.81px;
+}
 
 /* frequently asked questions section */
 
-/* .questions-container {
+.questions-container {
     align-items: center;
     background: black;
     border-bottom: 0.625rem solid #222222;
     display: flex;
     flex-direction: column;
-    padding: 4.375rem 0rem;
-} */
+    padding: 50px 0px;
+}
 
-/* .questions-btn {
+.questions-container h1 {
+    padding: 0px 20.5938px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 24.5px;
+}
+
+.questions-btn {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
-} */
+    margin: 1.5rem 0rem;
+    width: 100%;
+}
 
-/* .block {
+.block {
     align-items: center;
     display: flex;
     background-color: #2f2e2e;
@@ -330,77 +362,133 @@
     border-width: 0rem;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 400;
-    height: 5.25rem;
+    height: 49.78px;
     justify-content: space-between;
-    padding: 1.5rem;
-    margin-bottom: 0.625rem;
+    flex-direction: row;
+    padding: 14.4px 21.6px 14.4px 39.6px;
+    margin-bottom: 1px;
     text-align: left;
+    width: 100%;
   
-} */
+}
 
-/* .block:hover {
+.block:hover {
     background-color: #414141;
-} */
+}
 
-/* .block .material-symbols-outlined {
+.block .material-symbols-outlined {
     color: rgb(255, 255, 255);
-    font-size: 3.5rem;
+    font-size: 25px;
     font-weight: 100;
-    height: 2.25rem;
-    width: 2.25rem;
-} */
+    height: 25.46px;
+    width: 25.46px;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.625rem;
+    width: 100%;
+}
+
+.faq-answer {
+    display: none;
+    color: rgb(255, 255, 255);
+    background-color: #2f2e2e;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21.6px;
+    width: 100%;
+}
+
+.input-area {
+    display: flex;
+}
+
+.input-area h3 {
+    display: none;
+}
+
+.get-started-form2 {
+    display: flex;
+}
+
+.get-started-form2 input {
+    display: none;
+}
+
+.get-started-form2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 9, 20);
+    border: 0.067rem solid rgba(0,0,0,0);
+    border-radius: 0.25rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin: 0rem 0rem 0rem 0.5rem;
+    padding: 0rem;
+    width: 115.92px;
+}  
+
+.get-started-form2 .material-symbols-outlined {
+    display: none;
+}
+
 
 /* footer section with links to more information and language selector button */
 
-/* .footer {
+.footer {
     background: black;
     color: rgba(255,255,255,0.7);
-   
-} */
+    padding: 50px 20.5938px 0px;
+}
 
-/* .footer-items {
+.footer-items {
     display: flex;
     flex-direction: column;
     font-weight: 400;
     justify-content: center; 
-} */
+}
 
-/* #number {
+#number {
     color: rgba(255,255,255,0.7);
-    font-size: 0.938rem;
+    font-size: 16px;
     font-weight: 400;
     text-decoration: underline;
-} */
+}
 
-/* #call {
-    padding: 0rem 0rem 1.5rem 0rem;
-} */
+#call {
+    font-size: 16px;
+}
 
-/* 
+
 .list-items {
-    columns: 4;
+    columns: 2;
     column-gap: 2.188rem;     
-    text-indent: -2.5rem;
-    padding: 0rem 0rem 0.75rem 0rem;
-} */
+    margin: 30px 0px;
+}
 
-/* .list-items li {
+.list-items li {
     list-style-type: none;
     padding: 0rem 0rem 0.75rem 0rem;        
-    text-decoration: underline;
-} */
+    
+}
 
-/* .list-items li:hover {
+.list-items li:hover {
     cursor: pointer;
-} */
+    text-decoration: underline;
+}
 
-/* li {
-    font-size: 0.875rem;
-} */
+li {
+    font-size: 13px;
+}
 
-/* .dropdown-btn {
+.dropdown-btn {
     align-items: center;
     background-color: #0F0F0F;
     border: 0.063rem solid #5E5E5E;
@@ -410,9 +498,9 @@
     height: 2rem;
     position: relative;    
     width: 125.33px;
-} */
+}
 
-/* .dropdown-btn select {
+.dropdown-btn select {
     color: white;
     appearance: none;
     background-color: #0F0F0F;
@@ -423,18 +511,23 @@
     font-weight: 500;
     padding: 0.375rem 2.25rem 0.375rem 2.125rem;
     width: 100%;
-} */
+}
 
-/* .dropdown-btn .material-symbols-outlined {
+.dropdown-btn .material-symbols-outlined {
     align-items: center;
     margin-left: 0.563rem;
     position: absolute;
-} */
+}
 
- /* #copyright {
-    font-size: 0.813rem;
+option {
+    color: white;
+    background-color: #0F0F0F;
+}
+
+ #copyright {
+    font-size: 13px;
     margin: 1.5rem 0rem 0rem 0rem;
-}  */
+} 
 
 /* github account : @amahlehani */
 
